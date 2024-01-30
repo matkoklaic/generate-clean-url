@@ -20,6 +20,8 @@ npm install generate-clean-url
 ```javascript
 const generateUrl = require('generate-clean-url');
 
+const baseUrl = "http://testurl.bitfinx.com/";
+
 const params = {
     width: 360,
     height: 300,
@@ -29,5 +31,5 @@ const params = {
     pair: 'BTC_USD'
 };
 
-const url = generateUrl(params);
+const url = generateUrl(baseUrl, params);
 ```
