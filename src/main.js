@@ -1,4 +1,4 @@
-const generateURL = (params) => {
+const generateUrl = (params) => {
   const baseUrl = "http://testurl.bitfinx.com/";
   let url = new URL(baseUrl);
 
@@ -11,4 +11,4 @@ const generateURL = (params) => {
   return url.toString();
 };
 
-export default generateURL;
+export default generateUrl;

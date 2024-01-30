@@ -1,6 +1,6 @@
 'use strict';
 
-const generateURL = (params) => {
+const generateUrl = (params) => {
   const baseUrl = "http://testurl.bitfinx.com/";
   let url = new URL(baseUrl);
 
@@ -13,4 +13,4 @@ const generateURL = (params) => {
   return url.toString();
 };
 
-module.exports = generateURL;
+module.exports = generateUrl;
