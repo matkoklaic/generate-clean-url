@@ -1,6 +1,6 @@
 {
   "name": "generate-clean-url",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Generate a URL from given parameters",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -16,6 +16,10 @@
   ],
   "author": "npm@matkoklaic.com",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matkoklaic/generate-clean-url.git"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
