@@ -1,0 +1,25 @@
+{
+  "name": "generate-clean-url",
+  "version": "1.0.18",
+  "description": "Generate a URL from given parameters",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test/test.js",
+    "pretest": "npm run build"
+  },
+  "keywords": [
+    "URL"
+  ],
+  "author": "npm@matkoklaic.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.5",
+    "rollup": "^4.9.6"
+  }
+}
