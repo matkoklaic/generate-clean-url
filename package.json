@@ -1,6 +1,6 @@
 {
   "name": "generate-clean-url",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Generate a URL from base URL and given parameters",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
