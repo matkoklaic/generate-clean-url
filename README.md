@@ -7,19 +7,37 @@ generate-clean-url is a single method package for constructing a URL from compon
 - Special characters encoding.
 - Skipping undefined or empty query parameter strings.
 
-## Installation
+## Installing
 
-To install the package, run the following command:
+Using npm:
 
 ```bash
 npm install generate-clean-url
 ```
 
-## Usage
+Using yarn:
+
+```bash
+yarn add generate-clean-url
+```
+
+## Importing
+
+CJS:
 
 ```javascript
 const generateUrl = require('generate-clean-url');
+```
 
+EMS:
+
+```javascript
+import generateUrl from 'generate-clean-url';
+```
+
+## Using
+
+```javascript
 const baseUrl = "http://testurl.bitfinx.com/";
 
 const params = {
